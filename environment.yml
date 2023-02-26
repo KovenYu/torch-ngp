@@ -9,7 +9,8 @@ dependencies:
   - trimesh
   - opencv
   - tensorboardX
-  - pytorch
+  - pytorch=1.12.0
+  - torchvision=0.13.0
   - numpy 
   - pandas
   - tqdm
@@ -23,5 +24,6 @@ dependencies:
     - torch-ema
     - PyMCubes
     - pysdf
+    - torchmetrics
     - dearpygui
     - git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
